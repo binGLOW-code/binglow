@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>binGLOW | Дизайн & Разработка</title>
+    <link rel="preconnect" href="https://googleapis.com"><link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Unbounded:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-glow-1"></div><div class="bg-glow-2"></div>
+
+    <header class="fade-in">
+        <div class="logo">bin<span>GLOW</span></div>
+        <div class="status-badge">Свободен</div>
+    </header>
+
+    <div class="main-nav-tabs fade-in">
+        <button class="nav-tab-btn active" data-target="marketplaces">Маркетплейсы</button>
+        <button class="nav-tab-btn" data-target="gamedev">Разработка игр</button>
+    </div>
+
+    <!-- Весь контент динамически меняется здесь -->
+    <main id="dynamic-content" class="fade-in"></main>
+
+    <section class="contacts reveal">
+        <h2>ОБСУДИТЬ ТЗ</h2>
+        <p>Пишите напрямую в мессенджеры. Рассчитаем сроки и зафиксируем стоимость.</p>
+        <a href="https://wa.me" target="_blank" class="phone-link">+7 939 370 44-86</a>
+        <div class="messenger-tags">
+            <span class="tag tag-wa">WhatsApp</span><span class="tag tag-max">MAX</span>
+        </div>
+    </section>
+
+    <footer>© 2026 binGLOW • ДИЗАЙН & ГЕЙМДЕВ</footer>
+    <script src="script.js"></script>
+</body>
+</html>
